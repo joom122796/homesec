@@ -3,7 +3,7 @@ import leave
 from leave import leaving as leaving
 
 def setup():
-  if keypad.password == '0000' and keypad.setup = False:
+  if keypad.password == '0000' and keypad.setup == False:
     pw2 = int(input('It seems to be your first time using the home security system.\nEnter a four digit passcode to set as your security code: '))
     pwconf = int(input('Re-enter the four digit passcode to confirm your security code: '))
     while pwconf != pw2:
