@@ -11,6 +11,7 @@ def SecSys():
       if fhome == keypad.password:
         SecuritySystem = False
         print('Family is home, disabling security system.')
+        quit()
       else:
         print('Movement on the ground detected: enabling intrusion detection system')
         Alarm()
